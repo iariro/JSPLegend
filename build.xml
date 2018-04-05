@@ -1,6 +1,6 @@
 <project default="deploy">
 
-	<!-- JSP Regend build.xml -->
+	<!-- JSP Legend build.xml -->
 
 	<property file="../../../../../build.properties" />
 	<property name="bindir" value="../../../../../java" />
@@ -11,7 +11,7 @@
 
 	<target name="zip" description="PDAによる持ち出し用">
 		<zip
-			destfile="${PDA_HOME}/Temp/JSPRegend.zip"
+			destfile="${PDA_HOME}/Temp/JSPLegend.zip"
 			basedir=".."
 			includes="project/**"
 			excludes="project/bin/**"/>
@@ -46,8 +46,8 @@
 	</target>
 
 	<target name="deploy" if="have.tomcat">
-		<!--<delete dir="${TOMCAT_SITE_HOME}/regend/" />-->
-		<copy todir="${TOMCAT_SITE_HOME}/regend/">
+		<!--<delete dir="${TOMCAT_SITE_HOME}/legend/" />-->
+		<copy todir="${TOMCAT_SITE_HOME}/legend/">
 			<fileset dir="html">
 				<include name="**/*.html" />
 				<include name="**/*.jsp" />

@@ -1,4 +1,4 @@
-package kumagai.regend.struts;
+package kumagai.legend.struts;
 
 import org.apache.struts.action.*;
 

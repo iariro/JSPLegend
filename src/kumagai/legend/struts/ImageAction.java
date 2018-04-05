@@ -1,4 +1,4 @@
-package kumagai.regend.struts;
+package kumagai.legend.struts;
 
 import java.util.*;
 import javax.servlet.http.*;
