@@ -39,10 +39,10 @@
 			<area shape="rect" coords="576,256,624,319" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="movieImage1Path"/>" alt="movie1">
 			<area shape="rect" coords="576,328,624,391" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="movieImage2Path"/>" alt="movie2">
 
-			<area shape="rect" coords="576,16,624,48" href="OneDay.action?date=<s:property value="reviewDate1" />&category=AV鑑賞&usetag=true" alt="review">
+			<area shape="rect" coords="576,16,624,48" href="/kumagai/diary/oneday1?date=<s:property value="reviewDate1" />&category=AV鑑賞&usetag=true" alt="review">
 
 			<s:if test="%{reviewDate2 != null}">
-				<area shape="rect" coords="576,64,624,96" href="OneDay.action?date=<s:property value="reviewDate2" />&category=AV鑑賞&usetag=true" alt="review">
+				<area shape="rect" coords="576,64,624,96" href="/kumagai/diary/oneday1?date=<s:property value="reviewDate2" />&category=AV鑑賞&usetag=true" alt="review">
 			</s:if>
 		</map>
 
