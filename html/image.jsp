@@ -21,20 +21,20 @@
 		<br>
 
 		<map name="menu">
-			<area shape="rect" coords="16,88,143,183" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image1Path"/>" alt="image1">
-			<area shape="rect" coords="152,88,279,183" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image2Path"/>" alt="image2">
-			<area shape="rect" coords="289,88,416,183" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image3Path"/>" alt="image3">
-			<area shape="rect" coords="425,88,551,183" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image4Path"/>" alt="image4">
+			<area shape="rect" coords="16,88,143,183" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[0]"/>" alt="image1">
+			<area shape="rect" coords="152,88,279,183" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[1]"/>" alt="image2">
+			<area shape="rect" coords="289,88,416,183" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[2]"/>" alt="image3">
+			<area shape="rect" coords="425,88,551,183" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[3]"/>" alt="image4">
 
-			<area shape="rect" coords="16,192,143,288" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image5Path"/>" alt="image5">
-			<area shape="rect" coords="152,192,279,288" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image6Path"/>" alt="image6">
-			<area shape="rect" coords="289,192,416,288" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image7Path"/>" alt="image7">
-			<area shape="rect" coords="425,192,551,288" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image8Path"/>" alt="image8">
+			<area shape="rect" coords="16,192,143,288" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[4]"/>" alt="image5">
+			<area shape="rect" coords="152,192,279,288" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[5]"/>" alt="image6">
+			<area shape="rect" coords="289,192,416,288" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[6]"/>" alt="image7">
+			<area shape="rect" coords="425,192,551,288" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[7]"/>" alt="image8">
 
-			<area shape="rect" coords="16,296,143,391" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image9Path"/>" alt="image9">
-			<area shape="rect" coords="152,296,279,391" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image10Path"/>" alt="image10">
-			<area shape="rect" coords="289,296,416,391" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image11Path"/>" alt="image11">
-			<area shape="rect" coords="425,296,551,391" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="image12Path"/>" alt="image12">
+			<area shape="rect" coords="16,296,143,391" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[8]"/>" alt="image9">
+			<area shape="rect" coords="152,296,279,391" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[9]"/>" alt="image10">
+			<area shape="rect" coords="289,296,416,391" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[10]"/>" alt="image11">
+			<area shape="rect" coords="425,296,551,391" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="imagesPath[11]"/>" alt="image12">
 
 			<area shape="rect" coords="576,256,624,319" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="movieImage1Path"/>" alt="movie1">
 			<area shape="rect" coords="576,328,624,391" href="/kumagai/image?folder=LegendImageFolder&filename=<s:property value="movieImage2Path"/>" alt="movie2">
