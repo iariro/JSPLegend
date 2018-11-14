@@ -6,7 +6,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>ブルセラ伝説</title>
-		<link rel="stylesheet" type="text/css" href="<html:rewrite page="/legend/hatena.css"/>">
+		<link rel="stylesheet" type="text/css" href="hatena.css">
 	</head>
 
 	<body>
